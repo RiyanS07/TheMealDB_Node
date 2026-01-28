@@ -43,27 +43,6 @@ It provides a clean React UI backed by a Node.js REST API with caching for perfo
 
 ---
 
-## Project Structure
-TheMealDB/
-│
-├── backend/
-│ ├── src/
-│ │ ├── cache/
-│ │ ├── routes/
-│ │ ├── services/
-│ │ ├── app.js
-│ │ └── server.js
-│ └── package.json
-│
-└── TheMealDB_frontend/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── api.js
-│ ├── App.jsx
-│ └── main.jsx
-└── package.json
-
 ## Backend API Endpoints
 
 | GET | `/api/meals/search?name=` | Search meals by name |
