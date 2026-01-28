@@ -15,7 +15,7 @@ It provides a clean React UI backed by a Node.js REST API with caching for perfo
   - Ingredients + measurements parsing
   - Cooking instructions
   - Embedded YouTube video
-- 📱 Responsive design (mobile & desktop)
+- Responsive design (mobile & desktop)
 
 ### Backend (Node.js + Express)
 - REST-compliant API
@@ -45,11 +45,11 @@ It provides a clean React UI backed by a Node.js REST API with caching for perfo
 
 ## Backend API Endpoints
 
-| GET | `/api/meals/search?name=` | Search meals by name |
-| GET | `/api/meals/categories` | Get meal categories |
-| GET | `/api/meals/category/:name` | Meals by category |
-| GET | `/api/meals/random` | Random meal |
-| GET | `/api/meals/:id` | Meal details |
+1) `/api/meals/search?name=` -Search meals by name |
+2) `/api/meals/categories` -Get meal categories |
+3)`/api/meals/category/:name` - Meals by category |
+4) `/api/meals/random` - Random meal |
+5) `/api/meals/:id` - Meal details |
 
 ---
 
